@@ -35,6 +35,6 @@
 
 using namespace cpp_template;
 
-CPPTemplate::CPPTemplate() {}
+CppTemplate::CppTemplate() {}
 
-CPPTemplate::~CPPTemplate() {}
+CppTemplate::~CppTemplate() {}

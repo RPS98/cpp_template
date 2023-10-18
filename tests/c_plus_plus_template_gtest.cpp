@@ -36,8 +36,8 @@
 #include "cpp_template/cpp_template.hpp"
 
 TEST(cpp_template, test_cpp_template) {
-  EXPECT_NO_THROW(std::shared_ptr<cpp_template::CPPTemplate> cpp_template =
-                      std::make_shared<cpp_template::CPPTemplate>());
+  EXPECT_NO_THROW(std::shared_ptr<cpp_template::CppTemplate> cpp_template =
+                      std::make_shared<cpp_template::CppTemplate>());
 }
 
 int main(int argc, char *argv[]) {

@@ -35,8 +35,8 @@
 #include "cpp_template/cpp_template.hpp"
 
 void test_cpp_template() {
-  std::shared_ptr<cpp_template::CPPTemplate> cpp_template =
-      std::make_shared<cpp_template::CPPTemplate>();
+  std::shared_ptr<cpp_template::CppTemplate> cpp_template =
+      std::make_shared<cpp_template::CppTemplate>();
 }
 
 int main(int argc, char* argv[]) {

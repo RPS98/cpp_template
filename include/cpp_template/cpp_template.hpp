@@ -35,10 +35,10 @@
 #define CPP_TEMPLATE_HPP
 
 namespace cpp_template {
-class CPPTemplate {
+class CppTemplate {
 public:
-  CPPTemplate();
-  ~CPPTemplate();
+  CppTemplate();
+  ~CppTemplate();
 };
 }  // namespace cpp_template
 

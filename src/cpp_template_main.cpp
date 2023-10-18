@@ -34,6 +34,6 @@
 #include <cpp_template/cpp_template.hpp>
 
 int main(int argc, char* argv[]) {
-  cpp_template::CPPTemplate cpp_template;
+  cpp_template::CppTemplate cpp_template;
   return 0;
 }
