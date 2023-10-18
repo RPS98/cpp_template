@@ -1,5 +1,5 @@
 /*!*******************************************************************************************
- *  \file       c_plus_plus_template.hpp
+ *  \file       cpp_template.hpp
  *  \brief      Class definition
  *  \authors    Rafael Pérez Seguí
  *
@@ -31,15 +31,15 @@
  * EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  ********************************************************************************/
 
-#ifndef C_PLUS_PLUS_TEMPLATE_HPP
-#define C_PLUS_PLUS_TEMPLATE_HPP
+#ifndef CPP_TEMPLATE_HPP
+#define CPP_TEMPLATE_HPP
 
-namespace c_plus_plus_template {
-class CPlusPlusTemplate {
+namespace cpp_template {
+class CPPTemplate {
 public:
-  CPlusPlusTemplate();
-  ~CPlusPlusTemplate();
+  CPPTemplate();
+  ~CPPTemplate();
 };
-}  // namespace c_plus_plus_template
+}  // namespace cpp_template
 
-#endif  // C_PLUS_PLUS_TEMPLATE_HPP
+#endif  // CPP_TEMPLATE_HPP

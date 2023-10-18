@@ -1,5 +1,5 @@
 /*!*******************************************************************************************
- *  \file       c_plus_plus_template_gtest.cpp
+ *  \file       cpp_template_gtest.cpp
  *  \brief      Class gtest
  *  \authors    Rafael Pérez Seguí
  *
@@ -31,13 +31,13 @@
  * EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  ********************************************************************************/
 
-#include <memory>
 #include <gtest/gtest.h>
-#include "c_plus_plus_template/c_plus_plus_template.hpp"
+#include <memory>
+#include "cpp_template/cpp_template.hpp"
 
-TEST(c_plus_plus_template, test_c_plus_plus_template) {
-  EXPECT_NO_THROW(std::shared_ptr<c_plus_plus_template::CPlusPlusTemplate> c_plus_plus_template =
-                      std::make_shared<c_plus_plus_template::CPlusPlusTemplate>());
+TEST(cpp_template, test_cpp_template) {
+  EXPECT_NO_THROW(std::shared_ptr<cpp_template::CPPTemplate> cpp_template =
+                      std::make_shared<cpp_template::CPPTemplate>());
 }
 
 int main(int argc, char *argv[]) {

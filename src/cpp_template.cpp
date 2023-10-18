@@ -1,5 +1,5 @@
 /*!*******************************************************************************************
- *  \file       c_plus_plus_template.cpp
+ *  \file       cpp_template.cpp
  *  \brief      Class implementation
  *  \authors    Rafael Pérez Seguí
  *
@@ -31,10 +31,10 @@
  * EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  ********************************************************************************/
 
-#include <c_plus_plus_template/c_plus_plus_template.hpp>
+#include <cpp_template/cpp_template.hpp>
 
-using namespace c_plus_plus_template;
+using namespace cpp_template;
 
-CPlusPlusTemplate::CPlusPlusTemplate() {}
+CPPTemplate::CPPTemplate() {}
 
-CPlusPlusTemplate::~CPlusPlusTemplate() {}
+CPPTemplate::~CPPTemplate() {}

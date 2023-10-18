@@ -1,5 +1,5 @@
 /*!*******************************************************************************************
- *  \file       c_plus_plus_template_main.cpp
+ *  \file       cpp_template_main.cpp
  *  \brief      Class executable
  *  \authors    Rafael Pérez Seguí
  *
@@ -31,9 +31,9 @@
  * EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  ********************************************************************************/
 
-#include <c_plus_plus_template/c_plus_plus_template.hpp>
+#include <cpp_template/cpp_template.hpp>
 
 int main(int argc, char* argv[]) {
-  c_plus_plus_template::CPlusPlusTemplate c_plus_plus_template;
+  cpp_template::CPPTemplate cpp_template;
   return 0;
 }

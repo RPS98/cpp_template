@@ -1,5 +1,5 @@
 /*!*******************************************************************************************
- *  \file       c_plus_plus_template_test.cpp
+ *  \file       cpp_template_test.cpp
  *  \brief      Class test
  *  \authors    Rafael Pérez Seguí
  *
@@ -32,14 +32,14 @@
  ********************************************************************************/
 
 #include <memory>
-#include "c_plus_plus_template/c_plus_plus_template.hpp"
+#include "cpp_template/cpp_template.hpp"
 
-void test_c_plus_plus_template() {
-  std::shared_ptr<c_plus_plus_template::CPlusPlusTemplate> c_plus_plus_template =
-      std::make_shared<c_plus_plus_template::CPlusPlusTemplate>();
+void test_cpp_template() {
+  std::shared_ptr<cpp_template::CPPTemplate> cpp_template =
+      std::make_shared<cpp_template::CPPTemplate>();
 }
 
 int main(int argc, char* argv[]) {
-  test_c_plus_plus_template();
+  test_cpp_template();
   return 0;
 }

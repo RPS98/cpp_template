@@ -1,5 +1,5 @@
 /*!*******************************************************************************************
- *  \file       c_plus_plus_template_benchmark.cpp
+ *  \file       cpp_template_benchmark.cpp
  *  \brief      Class benchmark
  *  \authors    Rafael Pérez Seguí
  *
@@ -34,14 +34,14 @@
 #include <benchmark/benchmark.h>
 #include <exception>
 #include <memory>
-#include "c_plus_plus_template/c_plus_plus_template.hpp"
+#include "cpp_template/cpp_template.hpp"
 
 static void BM_TEST_INIT(benchmark::State &state) {
   // Perform setup here
   for (auto _ : state) {
     // This code gets timed
-    std::shared_ptr<c_plus_plus_template::CPlusPlusTemplate> c_plus_plus_template =
-        std::make_shared<c_plus_plus_template::CPlusPlusTemplate>();
+    std::shared_ptr<cpp_template::CPPTemplate> cpp_template =
+        std::make_shared<cpp_template::CPPTemplate>();
   }
 }
 BENCHMARK(BM_TEST_INIT)->Threads(1)->Repetitions(10);

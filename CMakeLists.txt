@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-set(PROJECT_NAME c_plus_plus_template)
+set(PROJECT_NAME cpp_template)
 project(${PROJECT_NAME})
 
 # Default to C++17
